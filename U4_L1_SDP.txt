@@ -1,0 +1,5 @@
+1. Because we don't want anyone messing with the stack values outside of using the methods as it will ruin the stack
+2. We use it in the pop and top methods so we can see if the top of the stack exists in the first place so we don't create an error.
+3. It is important because other programmers need to be able to see what went wrong in their code and understand what happened to fix it.
+4. Because then popping the top of the stack would be very inefficient as the program would have to delete the first index and move everything down one making it f(n) = n instead of f(n) = 1. This would be the same with pushing instead of being constant time it would go to being linear time, if we made the other end the top.
+5. Unit testing is testing a small part of your code so you know whether it works or not. It it incorporated through the tests that are given to us. It is important to this assignment so that we can make an actual functioning data structure.
